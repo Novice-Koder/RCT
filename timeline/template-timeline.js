@@ -3,7 +3,7 @@ var json = {
         {
             "id":1,
             "time": "21 Jan 2022",
-            "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+            "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
             "distributor": "HTML Basic - Quiz-1",
             "category": "(HTML)"
         },
@@ -11,7 +11,7 @@ var json = {
     {
         "id":2,
         "time": "22 Jan 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "DE Quiz-1 ",
         "category": "(DHTML)"
     }
@@ -19,7 +19,7 @@ var json = {
     {
         "id":3,
         "time": "23 Jan 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "Software Engineering Quiz-1 ",
         "category": "(SE)"
     }
@@ -27,7 +27,7 @@ var json = {
     {
         "id":4,
         "time": "24 Jan 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "Operating System Quiz-1 ",
         "category": "(OS)"
     }
@@ -35,7 +35,7 @@ var json = {
     {
         "id": 5,
         "time": "25 Jan 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "Digital Electronics Quiz-1 ",
         "category": "(DE)"
     }
@@ -43,7 +43,7 @@ var json = {
     {
         "id": 6,
         "time": "26 Jan 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "Visual Basic Quiz-1 ",
         "category": "(VB)"
     }
@@ -51,7 +51,7 @@ var json = {
     {
         "id": 7,
         "time": "27 Jan 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "asfsaf Quiz-1 ",
         "category": "(HTML)"
     }
@@ -59,7 +59,7 @@ var json = {
     {
         "id": 8,
         "time": "28 Jan 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "asfsaf Quiz-1 ",
         "category": "(HTML)"
     }
@@ -67,7 +67,7 @@ var json = {
     {
         "id": 9,
         "time": "29 Jan 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "asfsaf Quiz-1 ",
         "category": "(HTML)"
     }
@@ -75,7 +75,7 @@ var json = {
     {
         "id": 10,
         "time": "30 Jan 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "asfsaf Quiz-1 ",
         "category": "(HTML)"
     }
@@ -83,7 +83,7 @@ var json = {
     {
         "id": 11,
         "time": "31 Jan 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "asfsaf Quiz-1 ",
         "category": "(HTML)"
     }
@@ -91,7 +91,7 @@ var json = {
     {
         "id": 12,
         "time": "1 Feb 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "asfsaf Quiz-1 ",
         "category": "(HTML)"
     }
@@ -99,7 +99,7 @@ var json = {
     {
         "id": 13,
         "time": "2 Feb 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "asfsaf Quiz-1 ",
         "category": "(HTML)"
     }
@@ -107,14 +107,14 @@ var json = {
     {
         "id": 14,
         "time": "3 Feb 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "asfsaf Quiz-1 ",
         "category": "(HTML)"
     },
     {
         "id": 15,
         "time": "2 Feb 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "asfsaf Quiz-1 ",
         "category": "(HTML)"
     }
@@ -122,7 +122,7 @@ var json = {
     {
         "id": 16,
         "time": "2 Feb 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "asfsaf Quiz-1 ",
         "category": "(HTML)"
     }
@@ -130,7 +130,7 @@ var json = {
     {
         "id": 17,
         "time": "2 Feb 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "asfsaf Quiz-1 ",
         "category": "(HTML)"
     }
@@ -138,7 +138,7 @@ var json = {
     {
         "id": 18,
         "time": "2 Feb 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "asfsaf Quiz-1 ",
         "category": "(HTML)"
     }
@@ -146,7 +146,7 @@ var json = {
     {
         "id": 19,
         "time": "2 Feb 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "asfsaf Quiz-1 ",
         "category": "(HTML)"
     }
@@ -154,7 +154,7 @@ var json = {
     {
         "id": 20,
         "time": "2 Feb 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "asfsaf Quiz-1 ",
         "category": "(HTML)"
     }
@@ -162,7 +162,7 @@ var json = {
     {
         "id": 21,
         "time": "2 Feb 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "asfsaf Quiz-1 ",
         "category": "(HTML)"
     }
@@ -170,14 +170,14 @@ var json = {
     {
         "id": 22,
         "time": "2 Feb 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "asfsaf Quiz-1 ",
         "category": "(HTML)"
     }
     ,{
         "id": 23,
         "time": "2 Feb 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "asfsaf Quiz-1 ",
         "category": "(HTML)"
     }
@@ -185,7 +185,7 @@ var json = {
     {
         "id": 24,
         "time": "2 Feb 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "asfsaf Quiz-1 ",
         "category": "(HTML)"
     }
@@ -193,7 +193,7 @@ var json = {
     {
         "id": 25,
         "time": "2 Feb 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "asfsaf Quiz-1 ",
         "category": "(HTML)"
     }
@@ -201,7 +201,7 @@ var json = {
     {
         "id": 26,
         "time": "2 Feb 2022",
-        "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
+        "Link": "https://rajasthancomputerteacher.netlify.app/HTML/htmlquiz/quiz.html",
         "distributor": "asfsaf Quiz-1 ",
         "category": "(HTML)"
     }
