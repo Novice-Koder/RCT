@@ -1,0 +1,565 @@
+
+<html>
+	<head>
+	
+		<title>Html - Quiz</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="/css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel='stylesheet' id='slickquiz_css-css'  href='/slickquiz/css/slickQuiz.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='slickquiz_front_css-css'  href='/slickquiz/css/front.css' type='text/css' media='all' />
+        <style>
+            .quizcard{
+                background: #fff;
+                border-radius: 6px;
+                border: 0;
+                box-shadow: 0 3px 6px 0 rgba(0,0,0,.1),0 1px 3px 0 rgba(0,0,0,.08);
+                align-items: center;
+                padding: 3em 2em;
+            }
+            h1{
+                font-size: 34px;
+                font-weight: 700;
+            }
+        </style>
+    </head>
+
+	<body>
+        <div class="appHeader">
+	
+            <div class="left">
+                <a class="btn navbar-expand-lg navbar-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                    <i class="h4 bi bi-list"></i>
+                </a>
+            </div>
+        
+            <div class="pageTitle">
+                <img src="/kimoiTV.png" alt="Rajasthan Computer Teacher" class="logo">
+            </div>
+            <div class="right">
+                <div id="kimixymode">
+                    <div id="kimixymode"><div id="kimixyswitch" class="headerButton"><img src="/icons/nightlight.png" alt="search bar"></div></div>
+                </div>
+                    
+            </div>
+        </div>
+
+
+        <div class="offcanvas offcanvas-start" tabindex="1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header bg-primary">
+              <h4 class="offcanvas-title text-white align-center" id="offcanvasExampleLabel">RCT</h4>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                
+        
+                <ul class="listview flush transparent no-line image-listview">
+                    <li>
+                        <a href="/" class="item">
+                        <div class="icon-box">
+                        <!--<i class="bi bi-arrow-right-circle"></i>-->
+                        <img src="https://img.icons8.com/fluency/28/000000/home.png"/>
+                        </div>
+                        <div class="in">
+                        <div>Home</div>
+                        </div>
+                        </a>
+                    </li>	
+                    <li>
+                        <a href="/list/Tv-series.html" class="item">
+                            <div class="icon-box">
+                                <!--<i class="bi bi-arrow-right-circle"></i>-->
+                            <img src="https://img.icons8.com/office/28/000000/computer.png"/>
+                                </div>
+                            <div class="in">
+                            <div>Computer Fundamental</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/view/A-Z/Tv-series.html" class="item">
+                        <div class="icon-box">
+                        <!--<i class="bi bi-arrow-right-circle"></i>-->
+                        <img src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/28/000000/external-database-data-science-kiranshastry-lineal-color-kiranshastry.png"/>
+                        </div>
+                        <div class="in">
+                        <div>DBMS</div>
+                        </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/list/K-drama.html" class="item">
+                        <div class="icon-box">
+                        <!--<i class="bi bi-arrow-right-circle"></i>-->
+                        <img src="https://img.icons8.com/office/28/000000/operating-system.png"/>
+                        </div>
+                        <div class="in">
+                        <div>Operating System</div>
+                        </div>
+                        </a>
+                        </li>
+                        <li>
+                            <a href="/list/C-drama.html" class="item">
+                            <div class="icon-box">
+                            <!--<i class="bi bi-arrow-right-circle"></i>-->
+                            <img src="https://img.icons8.com/external-itim2101-flat-itim2101/28/000000/external-computer-networks-network-technology-itim2101-flat-itim2101.png"/>
+                            </div>
+                            <div class="in">
+                            <div>Computer Networking</div>
+                            </div>
+                            </a>
+                            </li>
+                            <li>
+                                <a href="/timeline/" class="item">
+                                <div class="icon-box">
+                                <!--<i class="bi bi-arrow-right-circle"></i>-->
+                                <img src="https://img.icons8.com/office/28/000000/tree-structure.png"/>
+                                </div>
+                                <div class="in">
+                                <div>Data Structure</div>
+                                </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/donate" class="item">
+                                <div class="icon-box">
+                                <!--<i class="bi bi-arrow-right-circle"></i>-->
+                                <img src="https://img.icons8.com/color/28/000000/electronics.png"/>
+                                </div>
+                                <div class="in">
+                                <div>Digital Electronics</div>
+                                </div>
+                                </a>
+                                </li>
+                                <li>
+                                    <a href="HTML/" class="item">
+                                    <div class="icon-box">
+                                    <!--<i class="bi bi-arrow-right-circle"></i>
+                                    -->
+                                    <img src="https://img.icons8.com/color/28/000000/html-5--v1.png"/>
+                                    </div>
+                                    <div class="in">
+                                    <div>HTML</div>
+                                    </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/browse/Animation.html" class="item">
+                                    <div class="icon-box">
+                                    <!--<i class="bi bi-arrow-right-circle"></i>-->
+                                    <img src="https://img.icons8.com/fluency/28/000000/engineering.png"/>
+                                    </div>
+                                    <div class="in">
+                                    <div>Software Engineering</div>
+                                    </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/browse/Animation.html" class="item">
+                                    <div class="icon-box">
+                                    <!--<i class="bi bi-arrow-right-circle"></i>-->
+                                    <img src="https://img.icons8.com/fluency/28/000000/create-icon.png"/>
+                                    </div>
+                                    <div class="in">
+                                    <div>Algorithm</div>
+                                    </div>
+                                    </a>
+                                </li>	
+                </ul>
+        
+            </div>
+        </div>
+        <!------------------------------------------>
+		
+        <!------------------------------------------------------------------------------>
+<br><br>
+        <div class="container-fluid ">
+            <!-- Content here -->
+            <div class="row d-flex ">
+                <div class="col-sm-9 ">
+                    <div class="slickQuizWrapper section mt-2 quizcard" id="slickQuiz115">
+                        <h1 class="quizName"></h1>
+                    
+                        <div class="quizArea">
+                            <div class="quizHeader">
+                                <div class="buttonWrapper"><a class="button startQuiz" href="#">Get Started!</a></div>
+                            </div>
+                        </div>
+                    
+                        <div class="quizResults">
+                            <div class="quizResultsCopy">
+                                <h3 class="quizScore">Your Score: <span>&nbsp;</span></h3>
+                                <h3 class="quizLevel">Your Ranking: <span>&nbsp;</span></h3>
+                                <div class="quizShare"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="section mt-4">
+                        <div class="section-title"><h3><p><i class="bi bi-collection">&nbsp;&nbsp;</i>Library</p></h3></div>
+                    <ul class="listview image-listview">
+                        <li>
+                            <a href="/HTML/htmlquiz/quiz.html" class="item">
+                                <div class="icon-box">
+                                    <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/48/000000/external-quiz-online-learning-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/></i>						
+                                    </div>
+                                <div class="in">
+                                <div>Quiz 1 </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/HTML/htmlquiz/quiz2.html" class="item">
+                                <div class="icon-box">
+                                    <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/48/000000/external-quiz-online-learning-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/></i>						
+                                    </div>
+                                <div class="in">
+                                <div>Quiz 2</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/HTML/htmlquiz/quiz3.html" class="item">
+                                <div class="icon-box">
+                                    <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/48/000000/external-quiz-online-learning-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/></i>						
+                                    </div>
+                                <div class="in">
+                                <div>Quiz 3</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/HTML/htmlquiz/quiz4.html" class="item">
+                                <div class="icon-box">
+                                    <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/48/000000/external-quiz-online-learning-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/></i>						
+                                    </div>
+                                <div class="in">
+                                <div>Quiz 4</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/HTML/htmlquiz/quiz5.html" class="item">
+                                <div class="icon-box">
+                                    <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/48/000000/external-quiz-online-learning-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/></i>						
+                                    </div>
+                                <div class="in">
+                                <div>Quiz 5</div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                
+                
+                    <ul class="listview image-listview">
+                        <li>
+                            <a href="/HTML/htmlquiz/quiz6.html" class="item">
+                                <div class="icon-box">
+                                    <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/48/000000/external-quiz-online-learning-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/></i>						
+                                    </div>
+                                <div class="in">
+                                <div>Quiz 6</div>
+                                </div>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/HTML/htmlquiz/quiz7.html" class="item">
+                                <div class="icon-box">
+                                    <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/48/000000/external-quiz-online-learning-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/></i>						
+                                    </div>
+                                <div class="in">
+                                <div>Quiz 7</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/HTML/htmlquiz/quiz8.html" class="item">
+                                <div class="icon-box">
+                                    <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/48/000000/external-quiz-online-learning-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/></i>						
+                                    </div>
+                                <div class="in">
+                                <div>Quiz 8</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/HTML/htmlquiz/quiz9.html" class="item">
+                                <div class="icon-box">
+                                    <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/48/000000/external-quiz-online-learning-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/></i>						
+                                    </div>
+                                <div class="in">
+                                <div>Quiz 9</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/HTML/htmlquiz/quiz10.html" class="item">
+                                <div class="icon-box">
+                                    <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/48/000000/external-quiz-online-learning-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/></i>						
+                                    </div>
+                                <div class="in">
+                                <div>Quiz 10</div>
+                                </div>
+                            </a>
+                        </li>
+                        
+                    </ul>
+               
+                    <ul class="listview image-listview">
+                        <li>
+                            <a href="/HTML/htmlquiz/quiz11.html" class="item">
+                                <div class="icon-box">
+                                    <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/48/000000/external-quiz-online-learning-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/></i>						
+                                    </div>
+                                <div class="in">
+                                <div>Quiz 11</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/HTML/htmlquiz/quiz12.html" class="item">
+                                <div class="icon-box">
+                                    <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/48/000000/external-quiz-online-learning-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/></i>						
+                                    </div>
+                                <div class="in">
+                                <div>Quiz 12</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/HTML/htmlquiz/quiz13.html" class="item">
+                                <div class="icon-box">
+                                    <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/48/000000/external-quiz-online-learning-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/></i>						
+                                    </div>
+                                <div class="in">
+                                <div>Quiz 13</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/HTML/htmlquiz/quiz14.html" class="item">
+                                <div class="icon-box">
+                                    <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/48/000000/external-quiz-online-learning-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/></i>						
+                                    </div>
+                                <div class="in">
+                                <div>Quiz 14</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/HTML/htmlquiz/quiz15.html" class="item">
+                                <div class="icon-box">
+                                    <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/48/000000/external-quiz-online-learning-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/></i>						
+                                    </div>
+                                <div class="in">
+                                <div>Quiz 15</div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+          
+        </div>
+        
+        <!------------------------------------------------------------------------------>
+        <div class="appFooter">
+            <div class="footer-title">
+                &copy; RCT.com 2022
+            </div>
+        </div>
+		<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+		<script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" type="bd67229b210594c208f1bf1c-text/javascript"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script type='text/javascript' src='/slickquiz/js/slickQuiz.js' id='slickquiz_js-js'></script>
+        <script type="text/javascript">
+                                        jQuery(document).ready(function($) {
+                                            $("#slickQuiz115").slickQuiz({
+                                                json:                         {"info":{"name":"General Hindi Part 1","main":"<p>This quiz is related to General Hindi important Questions<\/p>\n","results":"<p>\u0927\u0928\u094d\u092f\u0935\u093e\u0926\u094d \u0906\u092a \u0905\u092a\u0928\u0947 score \u0915\u094b \u0914\u0930 improve \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f quiz \u0915\u094b \u0926\u0941\u0935\u093e\u0930\u093e start \u0915\u0930\u0947\u0902 \u0924\u0925\u093e social media \u092a\u0930 share \u0915\u0930\u0947\u0902 . Quiz \u0926\u0941\u0935\u093e\u0930\u093e start \u0915\u0930\u0924\u0947 \u0939\u0940 \u0938\u093e\u0930\u0947 question and answer randomly show \u0939\u094b\u0902\u0917\u0947. \u0905\u0917\u0932\u0947 \u0926\u093f\u0928 \u0915\u0940 quiz \u0915\u0947 \u0932\u093f\u090f \u0905\u0917\u0932\u0947 \u0926\u093f\u0928 \u0915\u093e \u0907\u0902\u0924\u095b\u093e\u0930 \u0915\u0930\u0947\u0902 <\/p>\n","level1":"Superb... <a href =\"https:\/\/www.rpsconline.co.in\/ldc-junior-assistant-online-mock-test\/\">Play Again<\/A> <Br> Share your score in Social Media","level2":"Excellent <a href =\"https:\/\/www.rpsconline.co.in\/ldc-junior-assistant-online-mock-test\/\">Play Again<\/A> <Br> Share your score in Social Media","level3":"Good <a href =\"https:\/\/www.rpsconline.co.in\/ldc-junior-assistant-online-mock-test\/\">Play Again<\/A> <Br> Share your score in Social Media","level4":"Poor <a href =\"https:\/\/www.rpsconline.co.in\/ldc-junior-assistant-online-mock-test\/\">Play Again<\/A> <Br> Share your score in Social Media","level5":"Very Poor <a href =\"https:\/\/www.rpsconline.co.in\/ldc-junior-assistant-online-mock-test\/\">Play Again<\/A> <Br> Share your score in Social Media"},"questions":[{"a":[{"option":"\u0906\u0902\u0927\u094d\u0930\u092a\u094d\u0930\u0926\u0947\u0936","correct":"checked"},{"option":"\u092a\u0902\u091c\u093e\u092c"},{"option":"\u0930\u093e\u091c\u0938\u094d\u0925\u093e\u0928"},{"option":"\u091c\u092e\u094d\u092e\u0942 \u0915\u0936\u094d\u092e\u0940\u0930"}],"q":"<p>\u092d\u093e\u0937\u093e\u0908 \u0906\u0927\u093e\u0930 \u092a\u0930 \u0938\u0930\u094d\u0935\u092a\u094d\u0930\u0925\u092e \u0915\u093f\u0938 \u0930\u093e\u091c\u094d\u092f \u0915\u093e \u0917\u0920\u0928 \u0939\u0941\u0906 ?<\/p>\n","correct":"<p><font color=\"green\">Your answer is right, Correct answer is &#8211; \u0906\u0902\u0927\u094d\u0930\u092a\u094d\u0930\u0926\u0947\u0936<\/font><\/p>\n","incorrect":"<p><font color=\"red\">Your answer is wrong, Correct answer is &#8211; \u0906\u0902\u0927\u094d\u0930\u092a\u094d\u0930\u0926\u0947\u0936<\/font><\/p>\n","select_any":false,"force_checkbox":false},{"a":[{"option":"\u0930\u093e\u091c\u0938\u094d\u0925\u093e\u0928\u0940","correct":"checked"},{"option":"\u092a\u0936\u094d\u091a\u093f\u092e\u0940 \u0939\u093f\u0928\u094d\u0926\u0940"},{"option":"\u092a\u0942\u0930\u094d\u0935\u0940 \u0939\u093f\u0928\u094d\u0926\u0940"},{"option":"\u092c\u093f\u0939\u093e\u0930\u0940 "}],"q":"<p>\u092e\u0917\u0939\u0940 \u0915\u093f\u0938 \u092d\u093e\u0937\u093e \u0915\u0940 \u0909\u092a\u092c\u094b\u0932\u0940 \u0939\u0948 ?<\/p>\n","correct":"<p><font color=\"green\">Your answer is right, Correct answer is &#8211; \u0930\u093e\u091c\u0938\u094d\u0925\u093e\u0928\u0940<\/font><\/p>\n","incorrect":"<p><font color=\"red\">Your answer is wrong, Correct answer is &#8211; \u0930\u093e\u091c\u0938\u094d\u0925\u093e\u0928\u0940<\/font><\/p>\n","select_any":false,"force_checkbox":false},{"a":[{"option":"\u0938\u093f\u0902\u0927\u0940"},{"option":"\u0909\u0921\u093f\u092f\u093e"},{"option":"\u0917\u0941\u091c\u0930\u093e\u0924\u0940"},{"option":"\u092e\u0930\u093e\u0920\u0940 ","correct":"checked"}],"q":"<p>\u0928\u093f\u092e\u094d\u0928 \u092e\u0947 \u0938\u0947 \u0915\u094c\u0928 \u0938\u0940 \u092d\u093e\u0937\u093e \u0926\u0947\u0935\u0928\u093e\u0917\u0930\u0940 \u0932\u093f\u092a\u093f \u092e\u0947\u0902 \u0932\u093f\u0916\u0940 \u091c\u093e\u0924\u0940 \u0939\u0948 ?<\/p>\n","correct":"<p><font color=\"green\">Your answer is right, Correct answer is &#8211; \u092e\u0930\u093e\u0920\u0940 <\/font><\/p>\n","incorrect":"<p><font color=\"red\">Your answer is wrong, Correct answer is &#8211; \u092e\u0930\u093e\u0920\u0940 <\/font><\/p>\n","select_any":false,"force_checkbox":false},{"a":[{"option":"\u092e\u0948\u0938\u0942\u0930"},{"option":"\u091a\u0947\u0928\u094d\u0928\u0908","correct":"checked"},{"option":"\u092c\u0902\u0917\u0932\u094b\u0930"},{"option":"\u0939\u0948\u0926\u0930\u093e\u092c\u093e\u0926 "}],"q":"<p>\u0926\u0915\u094d\u0937\u093f\u0923\u0940 \u092d\u093e\u0930\u0924 \u092e\u0947 \u0939\u093f\u0928\u094d\u0926\u0940 \u092a\u094d\u0930\u091a\u093e\u0930 \u0938\u092d\u093e \u0915\u093e \u092e\u0941\u0916\u094d\u092f\u093e\u0932\u092f \u0915\u0939\u0949 \u092a\u0930 \u0938\u094d\u0925\u093f\u0924 \u0939\u0948 ?<\/p>\n","correct":"<p><font color=\"green\">Your answer is right, Correct answer is &#8211; \u091a\u0947\u0928\u094d\u0928\u0908<\/font><\/p>\n","incorrect":"<p><font color=\"red\">Your answer is wrong, Correct answer is &#8211; \u091a\u0947\u0928\u094d\u0928\u0908<\/font><\/p>\n","select_any":false,"force_checkbox":false},{"a":[{"option":"\u092e\u0939\u094b+\u0907\u0928\u094d\u0926\u094d\u0930"},{"option":"\u092e\u0939\u093e+\u0907\u0928\u094d\u0926\u094d\u0930","correct":"checked"},{"option":"\u092e\u0939\u0947+\u0907\u0928\u094d\u0926\u094d\u0930"},{"option":"\u0907\u0928\u092e\u0947\u0902 \u0938\u0947 \u0915\u094b\u0908 \u0928\u0939\u0940\u0902 "}],"q":"<p>\u092e\u0939\u0947\u0928\u094d\u0926\u094d\u0930 \u0915\u093e \u0938\u0928\u094d\u0927\u093f \u0935\u093f\u091a\u094d\u091b\u0947\u0926 \u0915\u094d\u092f\u093e \u0939\u0948 ?<\/p>\n","correct":"<p><font color=\"green\">Your answer is right, Correct answer is &#8211; \u092e\u0939\u093e+\u0907\u0928\u094d\u0926\u094d\u0930<\/font><\/p>\n","incorrect":"<p><font color=\"red\">Your answer is wrong, Correct answer is &#8211; \u092e\u0939\u093e+\u0907\u0928\u094d\u0926\u094d\u0930<\/font><\/p>\n","select_any":false,"force_checkbox":false},{"a":[{"option":"\u0938\u093f\u0902\u0927\u0940"},{"option":"\u0909\u0921\u093f\u092f\u093e"},{"option":"\u0917\u0941\u091c\u0930\u093e\u0924\u0940"},{"option":"\u092e\u0930\u093e\u0920\u0940 ","correct":"checked"}],"q":"<p>\u0928\u093f\u092e\u094d\u0928 \u092e\u0947 \u0938\u0947 \u0915\u094c\u0928 \u0938\u0940 \u092d\u093e\u0937\u093e \u0926\u0947\u0935\u0928\u093e\u0917\u0930\u0940 \u0932\u093f\u092a\u093f \u092e\u0947\u0902 \u0932\u093f\u0916\u0940 \u091c\u093e\u0924\u0940 \u0939\u0948 ?<\/p>\n","correct":"<p><font color=\"green\">Your answer is right, Correct answer is &#8211; \u092e\u0930\u093e\u0920\u0940 <\/font><\/p>\n","incorrect":"<p><font color=\"red\">Your answer is wrong, Correct answer is &#8211; \u092e\u0930\u093e\u0920\u0940 <\/font><\/p>\n","select_any":false,"force_checkbox":false},{"a":[{"option":" \u092e\u0942\u0930\u094d\u0927\u093e"},{"option":" \u0926\u0928\u094d\u0924"},{"option":"\u0913\u0937\u094d\u0920"},{"option":" \u0915\u0923\u094d\u0920 ","correct":"checked"}],"q":"<p>\u0915\u0935\u0930\u094d\u0917 \u0915\u093e \u0909\u091a\u094d\u091a\u093e\u0930\u0923-\u0938\u094d\u0925\u093e\u0928 \u0939\u0948 ?<\/p>\n","correct":"<p><font color=\"green\">Your answer is right, Correct answer is &#8211;  \u0915\u0923\u094d\u0920 <\/font><\/p>\n","incorrect":"<p><font color=\"red\">Your answer is wrong, Correct answer is &#8211;  \u0915\u0923\u094d\u0920 <\/font><\/p>\n","select_any":false,"force_checkbox":false},{"a":[{"option":"\u0907\u091a\u094d\u091b\u0941\u0915","correct":"checked"},{"option":"\u092a\u094d\u092f\u093e\u0938"},{"option":"\u092a\u0936\u0941"},{"option":"\u0938\u0928\u094d\u0924\u094b\u0937\u00a0"}],"q":"<p>\u0907\u0928\u092e\u0947\u0902 \u0938\u0947 \u0915\u094c\u0928 \u0938\u093e \u0936\u092c\u094d\u0926 \u0938\u0902\u091c\u094d\u091e\u093e \u0938\u0947 \u092c\u0928\u093e \u0939\u0941\u0906 \u0935\u093f\u0936\u0947\u0937\u0923 \u0939\u0948?<\/p>\n","correct":"<p><font color=\"green\">Your answer is right, Correct answer is &#8211; \u0907\u091a\u094d\u091b\u0941\u0915<\/font><\/p>\n","incorrect":"<p><font color=\"red\">Your answer is wrong, Correct answer is &#8211; \u0907\u091a\u094d\u091b\u0941\u0915<\/font><\/p>\n","select_any":false,"force_checkbox":false},{"a":[{"option":"\u092c\u091a\u094d\u091a\u093e","correct":"checked"},{"option":"\u0935\u091a\u094d\u091b"},{"option":"\u092c\u091a\u094d\u091a\u093e \u0914\u0930 \u0935\u091a\u094d\u091b \u0926\u094b\u0928\u094b\u0902\u00a0"},{"option":"none"}],"q":"<p>\u0915\u094c\u0928 \u0938\u093e \u0936\u092c\u094d\u0926 \u0938\u0902\u0938\u094d\u0915\u0943\u0924 \u0938\u0947 \u0924\u0926\u094d\u092d\u0935 \u092c\u0928\u093e\u092f\u093e \u0917\u092f\u093e \u0939\u0948 ?<\/p>\n","correct":"<p><font color=\"green\">Your answer is right, Correct answer is &#8211; \u092c\u091a\u094d\u091a\u093e<\/font><\/p>\n","incorrect":"<p><font color=\"red\">Your answer is wrong, Correct answer is &#8211; \u092c\u091a\u094d\u091a\u093e<\/font><\/p>\n","select_any":false,"force_checkbox":false},{"a":[{"option":"\u092e\u0947\u0930\u093e \u0932\u095c\u0915\u093e \u0906\u0932\u0938\u0940 \u0939\u0948\u0964","correct":"checked"},{"option":"\u0938\u0924\u0940\u0936 \u0938\u0941\u0902\u0926\u0930 \u0932\u095c\u0915\u093e \u0939\u0948\u0964"},{"option":" \u0926\u094b\u0928\u094b\u0902"},{"option":"\u0907\u0928\u092e\u0947\u0902 \u0938\u0947 \u0915\u094b\u0908 \u0928\u0939\u0940\u0902 "}],"q":"<p>\u0907\u0928\u092e\u0947\u0902 \u0938\u0947 \u0915\u094c\u0928 \u0935\u093f\u0927\u0947\u092f-\u0935\u093f\u0936\u0947\u0937\u0923 \u0939\u0948 ?<\/p>\n","correct":"<p><font color=\"green\">Your answer is right, Correct answer is &#8211; \u092e\u0947\u0930\u093e \u0932\u095c\u0915\u093e \u0906\u0932\u0938\u0940 \u0939\u0948\u0964<\/font><\/p>\n","incorrect":"<p><font color=\"red\">Your answer is wrong, Correct answer is &#8211; \u092e\u0947\u0930\u093e \u0932\u095c\u0915\u093e \u0906\u0932\u0938\u0940 \u0939\u0948\u0964<\/font><\/p>\n","select_any":false,"force_checkbox":false},{"a":[{"option":"\u0909\u0924\u094d\u0924\u0930\u092d\u093e\u0930\u0924","correct":"checked"},{"option":"\u0906\u0902\u0927\u094d\u0930\u092a\u094d\u0930\u0926\u0947\u0936"},{"option":"\u091c\u092e\u094d\u092e\u0942 \u0915\u0936\u094d\u092e\u0940\u0930"},{"option":"\u0907\u0928\u092e\u0947\u0902 \u0938\u0947 \u0915\u094b\u0908 \u0928\u0939\u0940\u0902 "}],"q":"<p>\u0939\u093f\u0928\u094d\u0926\u0940 \u092d\u093e\u0937\u093e \u0915\u093e \u091c\u0928\u094d\u092e \u0915\u0939\u093e\u0901 \u0939\u0941\u0906 \u0939\u0948 ?<\/p>\n","correct":"<p><font color=\"green\">Your answer is right, Correct answer is &#8211; \u0909\u0924\u094d\u0924\u0930\u092d\u093e\u0930\u0924<\/font><\/p>\n","incorrect":"<p><font color=\"red\">Your answer is wrong, Correct answer is &#8211; \u0909\u0924\u094d\u0924\u0930\u092d\u093e\u0930\u0924<\/font><\/p>\n","select_any":false,"force_checkbox":false},{"a":[{"option":"\u0905\u0928\u093e\u0925\u093e"},{"option":"\u0917\u093e\u092f\u093f\u0915\u093e"},{"option":"\u0917\u094b\u092a\u0940"},{"option":"\u0928\u093e\u0930\u093f\u00a0","correct":"checked"}],"q":"<p>\u00a0\u0907\u0928\u092e\u0947\u0902 \u0938\u0947 \u0915\u093f\u0938 \u0936\u092c\u094d\u0926 \u092e\u0947\u0902 \u0932\u093f\u0902\u0917\u092a\u094d\u0930\u0924\u094d\u092f\u092f-\u0938\u0902\u092c\u0902\u0927\u0940 \u0905\u0936\u0941\u0926\u094d\u0927\u093f\u092f\u093e\u0901 \u0939\u0948?<\/p>\n","correct":"<p><font color=\"green\">Your answer is right, Correct answer is &#8211; \u0928\u093e\u0930\u093f\u00a0<\/font><\/p>\n","incorrect":"<p><font color=\"red\">Your answer is wrong, Correct answer is &#8211; \u0928\u093e\u0930\u093f\u00a0<\/font><\/p>\n","select_any":false,"force_checkbox":false},{"a":[{"option":"\u0935\u0939 \u0930\u094b\u091c \u0906\u0924\u093e \u0939\u0948,","correct":"checked"},{"option":"\u092f\u0939 \u0939\u093e\u0925\u0940 \u0939\u0948\u0964"},{"option":"\u0927\u0940\u0930\u0947-\u0927\u0940\u0930\u0947"},{"option":"\u0907\u0928\u092e\u0947\u0902 \u0938\u0947 \u0915\u094b\u0908 \u0928\u0939\u0940\u0902 "}],"q":"<p>\u0907\u0928\u092e\u0947\u0902 \u0938\u0947 \u0905\u0932\u094d\u092a\u0935\u093f\u0930\u093e\u092e \u0915\u094c\u0928 \u0938\u093e \u0939\u0948 ?<\/p>\n","correct":"<p><font color=\"green\">Your answer is right, Correct answer is &#8211; \u0935\u0939 \u0930\u094b\u091c \u0906\u0924\u093e \u0939\u0948,<\/font><\/p>\n","incorrect":"<p><font color=\"red\">Your answer is wrong, Correct answer is &#8211; \u0935\u0939 \u0930\u094b\u091c \u0906\u0924\u093e \u0939\u0948,<\/font><\/p>\n","select_any":false,"force_checkbox":false},{"a":[{"option":"\u0926\u0938"},{"option":"\u092a\u093e\u0901\u091a","correct":"checked"},{"option":"\u0938\u093e\u0924"},{"option":"\u0906\u0920\u00a0"}],"q":"<p>\u0938\u0902\u091c\u094d\u091e\u093e \u0915\u0947 \u0915\u093f\u0924\u0928\u0947 \u092d\u0947\u0926 \u0939\u0948 ?<\/p>\n","correct":"<p><font color=\"green\">Your answer is right, Correct answer is &#8211; \u092a\u093e\u0901\u091a<\/font><\/p>\n","incorrect":"<p><font color=\"red\">Your answer is wrong, Correct answer is &#8211; \u092a\u093e\u0901\u091a<\/font><\/p>\n","select_any":false,"force_checkbox":false},{"a":[{"option":"\u092a\u0941\u0902\u0932\u093f\u0902\u0917","correct":"checked"},{"option":"\u0938\u094d\u0924\u094d\u0930\u0940\u0932\u093f\u0902\u0917"},{"option":"\u0909\u092d\u092f\u0932\u093f\u0902\u0917"},{"option":"\u0907\u0928\u092e\u0947\u0902 \u0938\u0947 \u0915\u094b\u0908 \u0928\u0939\u0940\u0902 "}],"q":"<p>\u0916\u091f\u092e\u0932 \u0936\u092c\u094d\u0926 (Gender) \u0939\u0948 ?<\/p>\n","correct":"<p><font color=\"green\">Your answer is right, Correct answer is &#8211; \u092a\u0941\u0902\u0932\u093f\u0902\u0917<\/font><\/p>\n","incorrect":"<p><font color=\"red\">Your answer is wrong, Correct answer is &#8211; \u092a\u0941\u0902\u0932\u093f\u0902\u0917<\/font><\/p>\n","select_any":false,"force_checkbox":false}],"extra":null},
+                                                questionCountText:            "Question %current of %total",
+                                                questionTemplateText:         "%count. %text",
+                                                scoreTemplateText:            "%score / %total",
+                                                checkAnswerText:              "Check My Answer",
+                                                nextQuestionText:             "Next »",
+                                                completeQuizText:             "Get Your Result",
+                                                backButtonText:               "",
+                                                tryAgainText:                 "",
+                                                numberOfQuestions:            null,
+                                                skipStartButton:              false,
+                                                randomSortQuestions:          true,
+                                                randomSortAnswers:            true,
+                                                preventUnanswered:            true,
+                                                perQuestionResponseMessaging: true,
+                                                perQuestionResponseAnswers:   true,
+                                                completionResponseMessaging:  true,
+                                                displayQuestionCount:         true,
+                                                displayQuestionNumber:        true,
+                                                disableScore:                 false,
+                                                disableRanking:               false,
+                                                scoreAsPercentage:            false
+                                            });
+                                            // get the start button
+                                            var button115 = $("#slickQuiz115 .buttonWrapper a");
+                                            // insert a name field before the button
+                                            $("#slickQuiz115 .buttonWrapper").before(
+                                                "<div class=\"nameLabel\" >"
+                                                + "<label>Your Name:</label>"
+                                                + "<input type=\"text\" value=\"\" /></div>"
+                                            );
+                                            // insert a email field before the button
+                                            $("#slickQuiz115 .buttonWrapper").before(
+                                                "<div class=\"emailLabel\" >"
+                                                + "<label>Your Email:</label>"
+                                                + "<input type=\"email\" value=\"\" /></div>"
+                                            );
+                                            var nameLabel = $("#slickQuiz115 .nameLabel input");
+                                            var emailLabel = $("#slickQuiz115 .emailLabel input");
+        
+                                            // when starting quiz, hide name field
+                                            $("#slickQuiz115 .button.startQuiz").on("click", function(e) {
+                                                var start = $(this);
+        
+                                                if (start.hasClass("disabled")) {
+                                                    e.stopPropagation();
+                                                } else {
+                                                    nameLabel.parent().hide();
+                                                    emailLabel.parent().hide();
+                                                    start.hide();
+                                                }
+                                            });
+        
+                                            // watch final check answer button and wait for result calculation before submitting
+                                            $("#slickQuiz115 .button.checkAnswer").last().on("click", function() {
+                                                setTimeout(submitScore115, 2000);
+                                            });
+        
+                                            // submit scores to wordpress db
+                                            function submitScore115() {
+                                                var json = {
+                                                    name: nameLabel.val(),
+                                                    email: emailLabel ? emailLabel.val() : "",
+                                                    score: $("#slickQuiz115 .correctResponse").length + " / " + $("#slickQuiz115 .question").length,
+                                                    quiz_id: 115
+                                                };
+        
+                                                $.ajax({
+                                                    type: "POST",
+                                                    url: "https://www.rpsconline.co.in/wp-admin/admin-ajax.php?_wpnonce=8af51745df",
+                                                    data: {action: "save_quiz_score", json: JSON.stringify(json)}
+                                                });
+                                            }
+                                                // disable the start button
+                                                button115.addClass("disabled");
+        
+                                                // when name is entered, enable start button
+                                                $("#slickQuiz115").on("change keyup", ".nameLabel input, .emailLabel input", function() {
+                                                    var namePass = nameLabel.val() !== "";
+                                                    var emailPass = true;
+        
+                                                    if (emailLabel.length > 0) {
+                                                      emailPass = false;
+                                                      emailPass = emailLabel.val() !== "";
+                                                      emailPass = /\S+@\S+\.\S+/.test(emailLabel.val());
+                                                    }
+        
+                                                    if (namePass && emailPass) {
+                                                        button115.removeClass("disabled");
+                                                    } else {
+                                                        button115.addClass("disabled");
+                                                    }
+                                                });
+                                            // watch final check answer button and wait for result calculation before submitting
+                                            $("#slickQuiz115 .button.nextQuestion").last().on("click", function() {
+                                                setTimeout(addShareButtons115, 2000);
+                                            });
+        
+                                            var sTop = window.screen.height/2-(218);
+                                            var sLeft = window.screen.width/2-(313);
+                                            var sqShareOptions = "height=400,width=580,toolbar=0,status=0,location=0,menubar=0,directories=0,scrollbars=0,top=" + sTop + ",left=" + sLeft;
+                                            var pageUrl = "https://www.rpsconline.co.in:443/ldc-junior-assistant-online-mock-test/";
+                                            var pageUrlEncoded = encodeURIComponent(pageUrl);
+        
+                                            // updates the share buttons with score, rank, and quiz name details
+                                            function addShareButtons115() {
+                                                var shareDiv = $("#slickQuiz115 .quizShare");
+        
+                                                if (shareDiv.length > 0) {
+                                                    shareDiv.empty(); // in case Try Again is enabled, reset buttons / messages
+        
+                                                    var sharePrep = "<style type='text/css'>"
+                                                        + ".slickQuizWrapper .quizShare .facebook { background: url(https://www.rpsconline.co.in/wp-content/plugins/slickquiz/images/facebook.png) left top no-repeat; } "
+                                                        + ".slickQuizWrapper .quizShare .twitter { background: url(https://www.rpsconline.co.in/wp-content/plugins/slickquiz/images/twitter.png) left top no-repeat; } "
+                                                        + ".slickQuizWrapper .quizShare .email { background: url(https://www.rpsconline.co.in/wp-content/plugins/slickquiz/images/email.png) left top no-repeat; } "
+                                                        + "</style>"
+                                                    shareDiv.append($(sharePrep));
+        
+                                                    var name  = $("#slickQuiz115 .quizName").text();
+                                                    var desc  = $("#slickQuiz115 .quizDescription").text();
+                                                    var score = $("#slickQuiz115 .quizScore span").text();
+                                                    var rank  = $("#slickQuiz115 .quizLevel span").text();
+        
+                                                    var copy = encodeURIComponent("I'm a [RANK]! I just scored [SCORE] on the [NAME] quiz!"
+                                                                    .replace(/\[NAME\]/, name)
+                                                                    .replace(/\[SCORE\]/, score)
+                                                                    .replace(/\[RANK\]/, rank)
+                                                                );
+        
+                                                    var twitterButton = "<a class='twitterButton' href='#'><i class='twitter'></i><span>Tweet</span></a>";
+                                                    shareDiv.append($(twitterButton).css("opacity",0).animate({opacity:1}));
+                                                    $("#slickQuiz115 .twitterButton").on("click", function(e) {
+                                                        e.preventDefault();
+                                                        slickQuizTwitter(copy);
+                                                    });
+        
+                                                    var facebookButton = "<a class='facebookButton' href='#'><i class='facebook'></i><span>Facebook</span></a>";
+                                                    shareDiv.append($(facebookButton).css("opacity",0).animate({opacity:1}));
+                                                    $("#slickQuiz115 .facebookButton").on("click", function(e) {
+                                                        e.preventDefault();
+                                                        slickQuizFacebook(copy, encodeURIComponent(desc));
+                                                    });
+        
+                                                    var emailCopy = copy + encodeURIComponent("\n\n" + pageUrl);
+                                                    var emailUrl  = "mailto:?subject=" + encodeURIComponent(name) + "&amp;body=" + emailCopy;
+                                                    var emailButton = "<a class=\"emailButton\" href=\"" + emailUrl + "\"><i class=\"email\"></i><span>Email</span></a>";
+                                                    shareDiv.append($(emailButton).css("opacity",0).animate({opacity:1}));
+                                                }
+                                            }
+        
+                                            function slickQuizTwitter(copy) {
+                                                var name = "".replace(/@/, '');
+        
+                                                var twitterUrl = "https://twitter.com/intent/tweet?"
+                                                    + "url=" + pageUrlEncoded + "&"
+                                                    + "text=" + copy + "&"
+                                                    + "via=" + name;
+        
+                                                window.open(twitterUrl, "twitterShare", sqShareOptions);
+                                                return false;
+                                            }
+        
+                                            function slickQuizFacebook(copy, desc) {
+                                                var facebookUrl = "https://www.facebook.com/dialog/feed?"
+                                                    + "display=popup&"
+                                                    + "app_id=225454720972262&"
+                                                    + "link=" + pageUrlEncoded + "&"
+                                                    + "name=" + copy + "&"
+                                                    + "description=" + desc + "&"
+                                                    + "redirect_uri=http://slickquiz.com/close.html";
+        
+                                                window.open(facebookUrl, "facebookShare", sqShareOptions);
+                                                return false;
+                                            }
+                                    
+                                        });
+                                    </script>
+                                    
+                                
+                                </body>
+        </html>
