@@ -4,7 +4,7 @@ var json = {
             "id":1,
             "time": "21 Jan 2022",
             "Link": "http://127.0.0.1:5500/HTML/htmlquiz/quiz.html",
-            "distributor": "asfas Quiz-1 ",
+            "distributor": "HTML Basic - Quiz-1",
             "category": "(HTML)"
         },
     
